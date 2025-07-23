@@ -6,19 +6,46 @@
     font-size: 1.5rem;
   }
   .hero-wrapper {
-    margin-top: 110px;
+    margin-top: 30px;
     flex-direction: column-reverse;
     gap: 25px;
   }
-  .hero-left-text h1{
+  .fresh-flower {
     font-size: 2.3rem;
-}
-.hero-left-text p{
+  }
+  .hero-left-text h1 {
+    font-size: 2.3rem;
+  }
+  .hero-left-text p {
     font-size: 14px;
-}
-.hero-left-text {
+  }
+  .hero-left-text {
     margin: 0 15px;
+  }
+  .plant-section {
+    margin: 50px 15px 0 15px;
+  }
+  .plants-heading h1 {
+    font-size: 2rem;
+  }
+  .our {
+    font-size: 2rem;
+  }
+  .plants-heading p {
+    font-size: 0.8rem;
+  }
+  .plants-card {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .card-1 > h4,
+  span {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .card-1 button {
+    padding: 10px 25px;
+    font-size: 0.7rem;
+    width: 100%;
+  }
 }
-
-}
-
