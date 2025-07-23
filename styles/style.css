@@ -57,3 +57,33 @@ color: #252432;
   font-family: var(--inter);
   color: #000000;
 }
+/* -------hero------- */
+.hero-wrapper{
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-left-text{
+    max-width: 520px;
+}
+.hero-left-text h1{
+    font-family: var(--noto-serif);
+    font-size: 4rem;
+    font-weight: bold;
+    color: #000000;
+}
+.hero-left-text p{
+    font-family: var(--inter);
+    font-size: 1rem;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 12px;
+}
+.fresh-flower{
+    color: #E95A08;
+}
+.hero-right-img img{    max-width: 100%;
+    display: block;
+    height: auto;
+}
